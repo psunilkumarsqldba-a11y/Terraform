@@ -16,7 +16,7 @@ provider "aws" {
 resource "aws_instance" "myvm" {
   ami           = "ami-0f58b397bc5c1f2e8"
   instance_type = "t3.micro"
-  instance name="myVM"
+  instance name="windowsVM"
   key_name = "Ubuntu"
 
 }
